@@ -122,18 +122,6 @@ function sliderR(){
 
 
 
-    const minus =document.querySelector(".btn-1")
-
-    const plus =document.querySelector(".btn-2")
-
-    const hisob1= document.querySelector(".hisob")
-
-    const pul= document.querySelector(".pul")
-
-    minus.addEventListener('click', (e)=>{
-      
-       
-    })
     
 
 
@@ -163,7 +151,7 @@ function sliderR(){
         $(".harid-oynasi").classList.remove("yashirin")
 
         $(".korz-2").classList.remove("yashirin")
-
+        $('.module-head').classList.toggle("active")
     })
 
 

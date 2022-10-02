@@ -514,18 +514,14 @@ display: none;
 
 @media only screen and (max-width: 450px) {
 
+
+    body{
+        overflow-x: hidden;
+    }
+
     ul li{
-        display: non;
-        position: absolute;
-        z-index: 99999;
-        top: 334px;
-        color: rgb(255, 255, 255);
-        display: flex;
-        width: 333px;
-        height: 344px;
-        ;
-        gap: 344px;
-        left: 23px;
+        display: none;
+       
         
     }
 
@@ -557,7 +553,7 @@ display: none;
 }
 
     .slide-content{
-        width: 400px;
+        width: 430px;
         position: relative;
         height: 300px;
         right: 233px;
@@ -569,7 +565,7 @@ display: none;
         -o-border-radius: 0px;
 }
     .slide-item{
-        width: 400px;
+        width: 430px;
         border-radius: none;
         -webkit-border-radius: none;
         -moz-border-radius: none;
@@ -579,7 +575,7 @@ display: none;
 
     }
     .slide-item img{
-        width: 400px;
+        width: 430px;
         border-radius: 0px;
         -webkit-border-radius: 0px;
         -moz-border-radius: 0px;
@@ -628,8 +624,9 @@ display: none;
 }
 
 
-
-
+.btn{
+  
+}
 
 
 }
