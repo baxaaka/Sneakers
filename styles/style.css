@@ -197,7 +197,7 @@ color: rgb(255, 183, 0);
     font-size: 23px;
 }
 
-.card button{
+.card .btn{
     background-color: rgb(249, 124, 57);
     padding: 12px 53px;
     border-radius: 20px;
@@ -214,9 +214,45 @@ color: rgb(255, 183, 0);
     color: rgb(247, 236, 218);
     border: none;
     cursor: pointer;
+    position: relative;
+    left: 174px;
     
 }
 
+
+.card .but-2{
+    display:flex;
+    gap: 14px;
+    position: relative;
+    bottom: 46px;
+    background-color: rgb(186, 186, 186);
+    width: 123px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+
+
+.card .but-2 button{
+   padding: 4px 23px ;
+   background-color: rgb(186, 186, 186);
+   border: none;
+   color: coral;
+   font-size: 26px;
+   border-radius: 12px  ;
+   -webkit-border-radius: 12px  ;
+   -moz-border-radius: 12px  ;
+   -ms-border-radius: 12px  ;
+   -o-border-radius: 12px  ;
+}
+
+.card .hisob{
+  
+    font-size: 26px;
+}
 span b{
     color: coral;
     background-color: rgba(215, 130, 130, 0.356);
@@ -236,9 +272,11 @@ span b{
 }
 
 .rasm {
+    width: 380px;
     position: relative;
     left: 260px;
     bottom: 34px;
+
    
 }
 
@@ -430,10 +468,46 @@ display: none;
     -o-transition: 5s all ease;
 }
 
+/* harid korzinka */
 
+.yashirin{
+    display: none;
+}
 
+.korz-2{
+    position: absolute;
+    font-size: 12px;
+    right: 83px;
+    bottom: 23px;
+    background-color: coral;
+    padding: 0px 9px;
+    border-radius: 23px;
+    -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    -ms-border-radius: 23px;
+    -o-border-radius: 23px;
+    
+}
 
+.ava{
+    
+     position: relative;
+     bottom: 3px;
+     padding: 1px 4px;
+     border-radius: 50%;
+     -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+     -ms-border-radius: 50%;
+     -o-border-radius: 50%;
+}
+.ava:hover{
+    background-color: coral;
 
+}
+.avatar{
+    position: relative;
+    top: 3px;
+}
 
 
 /*======= responsive =======*/

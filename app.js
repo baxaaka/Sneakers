@@ -115,4 +115,59 @@ function sliderR(){
           $('.modal-body').classList.remove('open')
     })
 
-    e
+    
+
+
+    ///======hisob =======
+
+
+
+    const minus =document.querySelector(".btn-1")
+
+    const plus =document.querySelector(".btn-2")
+
+    const hisob1= document.querySelector(".hisob")
+
+    const pul= document.querySelector(".pul")
+
+    minus.addEventListener('click', (e)=>{
+      
+       
+    })
+    
+
+
+
+    //== add to cart 
+
+
+
+    const deleteBtn= document.querySelector(".delete")
+
+    const addBtn =document.querySelector(".btn")
+               
+    const ss= document.querySelector(".harid-oynasi")    
+
+    deleteBtn.addEventListener("click",
+    ()=>{
+       
+        $(".harid-oynasi").classList.add("yashirin")
+        $(".korz-2").classList.add("yashirin")
+
+
+    })
+
+    addBtn.addEventListener("click",
+    ()=>{
+       
+        $(".harid-oynasi").classList.remove("yashirin")
+
+        $(".korz-2").classList.remove("yashirin")
+
+    })
+
+
+
+    //===============================hhis
+
+ 
